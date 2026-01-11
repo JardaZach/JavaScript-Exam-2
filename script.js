@@ -25,10 +25,10 @@ produkty.forEach(produkt => {
   const mujprodukt = document.createElement("div")
 
   const nazevProduktu = document.createElement("h2")
-  nazev.textContent = produkt.nazev
+  nazevProduktu.textContent = produkt.nazev
 
   const cenaProduktu = document.createElement("p")
-  cena.textContent = `Cena: ${produkt.cena} Kč`
+  cenaProduktu.textContent = `Cena: ${produkt.cena} Kč`
 
   const naSklade = document.createElement("p")
   if (produkt.skladem) {
